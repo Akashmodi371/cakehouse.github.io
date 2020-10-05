@@ -1,0 +1,327 @@
+*{
+  margin: 0; padding: 0;box-sizing: border-box;
+}
+.gallery{
+     width: 100%;
+     height: 45vh;
+     background-image:linear-gradient(red, yellow);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     position: relative;
+     clip-path:polygon(100% 0%,100% 85%,50% 100%,0% 85%,0% 0%)
+}
+.card-title{
+     font-family: 'Courgette', cursive;
+}
+.gallery-head{
+     margin-top:40px;
+}
+.card-body{
+     background-color: linear-gradient(white, yellow);;
+}
+.navbar{
+     background-image: linear-gradient(#74959d, lightblue);
+}
+.navbar-toggler{
+     background-color:#f9fa8b;
+     background: url("../image/list.svg");
+     text-decoration-color: red;
+     float: right;
+     width: 50px;
+}
+.navbar-toggler:hover{
+     background-color:#fbb5f2;
+     background: url("../image/list.svg");
+     z-index: -1;
+}
+
+.navbar-nav{
+     float: left;
+}
+.navbar-nav:hover{
+     background-color:linear-gradient(#74959d, lightblue);
+     float: left;
+     font-color: black;
+     font-size: 20px;
+     
+}
+.dropnav{
+     background-color: #fbdaf798;
+     border: 2px solid black;
+     border-radius: 30px;
+clip-path:inset(5% 10% 15% 10%) ;
+font-size: 30px;
+}
+.div-detail{
+     border: 6px solid black ;
+     width: 900px;
+     margin: auto;
+     background: #fcd3f7;
+     box-sizing: border-box;
+     
+}
+.items{
+     border: 3px dotted blue;
+     margin:20px 40px;
+     padding: 12px 40px;
+     background: rgb(176,235,250);
+     text-align: center;
+     font-family: 'Ubuntu', sans-serif;
+     
+     
+}
+.logoimage{
+     margin: 20px 12px 8px 50px;
+     width:100px;
+     height: 100px;
+     border-radius:30px;
+}
+.header-text{
+     margin: 0px 30px;
+     margin-left: 4px;
+text-align:center;
+     width: auto;
+     font-size: 70px;
+     font-family: 'Playfair Display', serif;
+}
+.coloum{
+     border: 2px solid black;
+     margin:auto;
+     margin-top: 9px;
+     margin-bottom: 9px;
+     background-color: #e8f6f9;
+}
+.row1{
+     border: 3px solid black;
+     padding: 4px;
+     text-align: center;
+}
+.row1st{
+     font-family: 'Secular One', sans-serif;
+}
+.row3{
+     margin:14px 5px 8px 9px;
+}
+.wrap{
+     display:grid;
+     grid-template-columns:repeat(auto-fit,minmax(400px,1fr)) ;
+      
+}
+.box{
+     width:900px;
+     height: 800px;
+}
+.content1{
+     border: 2px solid grey;
+     margin: 20px 5px;
+     padding: 90px;
+}
+.content1:hover{
+     border: 4px solid red;
+     margin: 20px 20px;
+     padding: 40px;
+     
+}
+
+.contactus{
+     text-align: center;
+     font-family: 'Secular One', sans-serif;
+     font-size: 50px;
+}
+.contactus:hover{
+      text-align: center;
+     font-family: 'Secular One', sans-serif;
+     font-size: 60px;
+     background-color:#e3f87d;
+     
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.aboutus{
+     margin: auto;
+     margin-top:200px;
+     border: 10px solid black;
+     padding:5px;
+     font-family: 'Playfair Display', serif;
+}
+.firstcard1{
+     margin: 10px 5px 10px 40px;
+     background-color:#4b4b4b ;
+     align-content: center;
+     align-self: center;
+}
+.firstcard2{
+     margin: 10px 10px 10px 10px;
+     background-image: linear-gradient(#00ccff, #ffa800);
+     align-content: center;
+     align-self: center;
+     width: 200px;
+}
+.priya{
+     border-radius: 20px;
+     margin: 10px ;
+}
+.priya:hover{
+     border-radius: 40px;
+     margin: 10px;
+     width:500px;
+     height: 300px;
+     border: 5px solid black
+}
+.title{
+     color: black;
+     font-weight: bolder;
+     font-size: 30px;
+     word-wrap: initial;
+}
+footer{
+     width: 100%;
+     margin: 20px 20px;
+     background-color: #f0caaf;
+}
+.ordernow{
+     margin: 20px 400px;
+     width: 200px;
+     padding: 10px 50px;
+     font-family: 'Abril Fatface', cursive;
+     size:500px;
+     background-color: #f4f713;
+     border: 9px solid black ;
+}
+.orderdiv{
+     background-color: #72dbf5;
+     shape-margin: 20px;
+     border: 7px solid grey;
+}
+.orderbtn{
+     margin: 10px 7px;
+     background-color: #fa9911;
+     
+}
+.modal1{
+     margin: 20px 20px;
+}
+.modalb{
+     background-color: #63dffe;
+     width: 100%;
+     border: 2px solid black;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+.contactbody{
+     background-color: #f9dbfe;
+}
+.cardbody{
+     background-color: #ffcb00be;
+}
+.cakehouse{
+     font-weight: bolder;
+     font-size: 50px;
+     font-family: 'Kaushan Script', cursive;
+}
+.cardb{
+     padding: 20px;
+     background-image:linear-gradient(black,yellow);
+}
+.contactb{
+     font-size: 35px;
+}
